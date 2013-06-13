@@ -1,0 +1,24 @@
+{
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "name": "shippy",
+  "description": "Client for shippy.io api",
+  "version": "0.1.17",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andyet/shippy.js.git"
+  },
+  "main": "./shippy.js",
+  "dependencies": {
+    "socket.io-client": "0.9.16"
+  },
+  "devDependencies": {
+    "precommit-hook": "0.3.4",
+    "mustache": "0.7.2",
+    "andbang-spec": "git+ssh://git@github.com:andyet/shippy-spec.git#v2.1.1",
+    "yetify": "0.0.1",
+    "colors": "0.6.0-1",
+    "uglify-js": "2.2.x",
+    "wildemitter": "0.0.5",
+    "underscore": "1.4.4"
+  }
+}
