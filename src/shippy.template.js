@@ -37,7 +37,14 @@
     };
 
     // inherit from emitter
-    Shippy.prototype = new WildEmitter();
+    Shippy.prototype = Object.create(WildEmitter.prototype, {
+        constructor: {
+            value: Shippy,
+            enumerable: false,
+            writable: true,
+            configurable: true
+        }
+    });
 
     // validate a token
     Shippy.prototype.validateToken = function (token, optionalCallback) {

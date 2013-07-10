@@ -15,7 +15,7 @@
     "precommit-hook": "0.3.4",
     "mustache": "0.7.2",
     "andbang-spec": "git+ssh://git@github.com:andyet/shippy-spec.git#v2.1.1",
-    "yetify": "0.0.1",
+    "yetify": "0.1.0",
     "colors": "0.6.0-1",
     "uglify-js": "2.2.x",
     "wildemitter": "0.0.5",
