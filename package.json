@@ -2,7 +2,7 @@
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "name": "shippy",
   "description": "Client for shippy.io api",
-  "version": "0.1.17",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/andyet/shippy.js.git"
