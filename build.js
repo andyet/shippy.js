@@ -65,7 +65,7 @@ api.events = events.join(',\n                ');
 
 var code = mustache.render(template, api);
 
-console.log('\n' + yetify.andBangLogo() + ':');
+console.log('\n' + yetify.shippyRocket('Shippy.js', 'JS SDK'));
 
 fs.writeFileSync(outputPath, code, 'utf-8');
 console.log(fileName.bold + ' file built.'.grey);
